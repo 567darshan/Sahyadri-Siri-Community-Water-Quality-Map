@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fourandahalfmen.m4">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="M8"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ViewWaterAvailabilityActivity"
+            android:label="M8" />
+
+        <activity
+            android:name=".SubmitHistoricalReportInfo"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".ViewIndividualReport"
+            android:label="M8" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".HomePageActivity"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".HomePageActivity_Worker"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".HomePageActivity_Manager"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".HomePageActivity_Admin"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".SubmitWaterPurityReport"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".ListViewPurityActivity"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".ViewIndividualSecurityReport"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".ViewIndividualUser"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".ListViewSecurityActivity"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".ListViewUsersActivity"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".ViewIndividualPurityReport"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="M8"
+            android:exported="true"
+            android:theme="@style/AppTheme.Dark">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ListViewAvailabilityActivity"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".SubmitWaterReport"
+            android:label="M8"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name=".WaterQualityHistoryGraphActivity"
+            android:label="M8" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC-k0mD7OaXAa3NoskSR4mNI5xCqLr6flw" />
+
+    </application>
+
+</manifest>
